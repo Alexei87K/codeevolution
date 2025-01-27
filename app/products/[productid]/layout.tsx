@@ -1,3 +1,5 @@
+
+
 export default function DashboardLayout({
     children,
   }: {
@@ -5,13 +7,11 @@ export default function DashboardLayout({
   }) {
     return (
          <>
-        <html lang="en">
-        <body>
+        
           <header>Product Header</header>
           <main>{children}</main>
           <footer>Product Footer</footer>
-          </body>
-          </html>
+          
         </>
     )
   }
